@@ -53,7 +53,7 @@ async def start_command(client: Client, message: Message):
                 ids = [int(int(argument[1]) / abs(client.db_channel.id))]
             except:
                 return
-        temp_msg = await message.reply("ᴡᴀɪᴛ ʙʀᴏᴏ...")
+        temp_msg = await message.reply("ᴡᴀɪᴛ ʙʀᴏo...")
         try:
             messages = await get_messages(client, ids)
         except:
@@ -87,8 +87,8 @@ async def start_command(client: Client, message: Message):
             [
     
     [
-                    InlineKeyboardButton("⚡️ About", callback_data = "about"),
-                    InlineKeyboardButton('🍁 Join Backup', url='https://t.me/heueksi')
+                    InlineKeyboardButton("❌ About", callback_data = "about"),
+                    InlineKeyboardButton('✅ Join Backup', url='https://t.me/heueksi')
         
     ]
             ]
