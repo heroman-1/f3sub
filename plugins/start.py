@@ -87,7 +87,7 @@ async def start_command(client: Client, message: Message):
             [
     
     [
-                    InlineKeyboardButton("❌ About", callback_data = "about"),
+                    InlineKeyboardButton("🤟🏻 About", callback_data = "about"),
                     InlineKeyboardButton('✅ Join Backup', url='https://t.me/heueksi')
         
     ]
